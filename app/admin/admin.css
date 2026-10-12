@@ -1,0 +1,17 @@
+.adm{display:flex;min-height:100vh;font-family:system-ui,sans-serif;color:#0f2a2e}
+.adm aside{width:200px;background:#0f2a2e;padding:20px 12px}
+.adm aside button{display:block;width:100%;text-align:left;padding:10px 12px;margin-bottom:6px;border:0;border-radius:8px;background:none;color:#cfe3e2;cursor:pointer;font-size:15px}
+.adm aside button.on{background:#0e7c7b;color:#fff}
+.adm main{flex:1;padding:28px;background:#f4f7f7}
+.adm h1{margin:0 0 18px;font-size:24px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
+.card{background:#fff;border-radius:10px;padding:18px;border:1px solid #dde7e7}
+.card b{display:block;font-size:32px;color:#0e7c7b}
+.bar{display:flex;gap:10px;margin:0 0 14px;flex-wrap:wrap}
+.bar input,.bar select,.form input,.form select,.form textarea{padding:9px;border:1px solid #c5d3d3;border-radius:8px;font-size:14px}
+.btn{padding:9px 14px;border:0;border-radius:8px;background:#0e7c7b;color:#fff;cursor:pointer}
+.btn.red{background:#c8553d}.btn.grey{background:#6b7f83}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid #e6eeee;font-size:14px}
+.form{display:grid;gap:10px;max-width:520px;background:#fff;padding:18px;border-radius:10px;margin-bottom:18px}
+.err{color:#c8553d}.ok{color:#0e7c7b}
